@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+input{
+    @apply outline-none w-[90%];
+}
+.active{
+    @apply bg-black text-white;
+}
